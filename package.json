@@ -1,0 +1,18 @@
+{
+  "name": "zyro_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/gherkin-testcafe firefox node_modules/testcafe-cucumber-steps/index.js tests/**/*.js tests/**/*.feature --tags @OnlineStore"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.1.0",
+    "gherkin-testcafe": "^5.0.0",
+    "testcafe": "^1.14.0",
+    "testcafe-cucumber-steps": "^1.19.0"
+  }
+}
